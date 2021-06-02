@@ -1,3 +1,6 @@
+Simple timer on JS
+
+
 ***** to start work with project write command:
 -----------------------------------------
 npm install
