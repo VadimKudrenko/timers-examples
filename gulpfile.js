@@ -18,7 +18,7 @@ gulp.task('sass', function () {
         .pipe(sourcemaps.init())
 //         .pipe(autoprefixer())
         .pipe(rigger())
-        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(sass({outputStyle: 'default'}).on('error', sass.logError))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('./build/css'))
         .pipe(browserSync.stream());
